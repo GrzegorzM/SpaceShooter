@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://wps0hpecyxnr"]
+
+[ext_resource type="Script" uid="uid://cp6c87clwoye2" path="res://Scenes/Player.cs" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://cq5jddtulaph8" path="res://SpaceShooterKenneyAssets/PNG/playerShip2_orange.png" id="1_v0iea"]
+
+[node name="Player" type="Node2D" unique_id=271692639]
+script = ExtResource("1_cvnsp")
+
+[node name="PlayerShip" type="Sprite2D" parent="." unique_id=85125740]
+texture = ExtResource("1_v0iea")

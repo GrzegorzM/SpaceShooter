@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cyqqgordmh7pa"]
+
+[ext_resource type="Texture2D" uid="uid://b7p3kjwsnny8o" path="res://SpaceShooterKenneyAssets/PNG/Meteors/meteorBrown_med1.png" id="1_5civa"]
+
+[node name="Meteor" type="Node2D" unique_id=245024622]
+
+[node name="MeteorBrown" type="Sprite2D" parent="." unique_id=249717979]
+position = Vector2(533, 76)
+texture = ExtResource("1_5civa")

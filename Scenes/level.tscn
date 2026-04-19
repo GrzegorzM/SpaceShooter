@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cbyp1xwa5d3e1"]
+
+[ext_resource type="Texture2D" uid="uid://bxprsliuit254" path="res://SpaceShooterKenneyAssets/Backgrounds/black.png" id="1_6phgx"]
+[ext_resource type="PackedScene" uid="uid://cyqqgordmh7pa" path="res://Scenes/meteor.tscn" id="2_81xng"]
+[ext_resource type="PackedScene" uid="uid://wps0hpecyxnr" path="res://Scenes/player.tscn" id="3_wqkje"]
+
+[node name="Level" type="Node2D" unique_id=759855801]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=409592673]
+position = Vector2(575, 324.5)
+scale = Vector2(4.4921875, 2.5273438)
+texture = ExtResource("1_6phgx")
+
+[node name="Meteor" parent="." unique_id=245024622 instance=ExtResource("2_81xng")]
+position = Vector2(187, 96)
+
+[node name="Player" parent="." unique_id=271692639 instance=ExtResource("3_wqkje")]
+position = Vector2(603, 326)

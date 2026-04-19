@@ -1,0 +1,39 @@
+# Godot 4+ specific
+.godot/
+/android/
+.import/
+export.cfg
+export_presets.cfg
+
+# Mono / .NET runtime
+.mono/
+data_*/
+mono_crash.*.json
+
+# C# / .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+.vs/
+.idea/
+
+# Source generator diagnostic output
+generated/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
